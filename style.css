@@ -1,0 +1,351 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,800;1,200;1,500;1,600;1,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    
+    font-family: "Poppins";
+}
+.nave-left, .nave-right{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nave-left img{
+    width: 50px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #efefef;
+    padding: 5px 5%;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    height: 100px;
+}
+.logo{
+    width: 140px;
+    margin-left: 23px;
+    
+}
+.nav-center ul li{
+    text-transform: uppercase;
+    text-decoration: none;
+    list-style: none;
+    display: inline-block;
+    color: #626262;
+    font-weight: bolder;
+    font-family: Microsoft Sans Serif;
+    font-size: 21px;
+    padding: 32px 0;
+    margin-left: 45px;
+}
+.nav-center{
+    margin-left: -650px;
+}
+.nav-right{
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+   
+}
+.icons i{
+    padding-left: 5px;
+    justify-content: space-between;
+    align-items: center;
+    width: 65px;
+
+}
+.container{
+    width: 100%;
+    height: 760px;
+    background: url("https://storage-asset.msi.com/in/picture/banner/banner_1645756828fbaf4f71f9f488090d1d7f78d39a921c.jpeg") no-repeat center/cover;
+}  
+.two-container1{
+    width: 50%;
+    height: 700px;
+    background: url("https://storage-asset.msi.com/global/picture/banner/banner_166450273097c3083d1414ce0e54313ed030e03818.png") no-repeat;
+    margin-left: 5px;
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.two-container1 p{
+    color: #fff;
+    width: 500px;
+    text-align: center;
+}
+#large-title{
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 40px;
+    letter-spacing: 1.5px;
+   
+}
+#title{
+    font-size:20px;
+    color: #f2f2f2;
+    opacity: 0.8;
+    padding-top: 10px;
+    letter-spacing: 1.5px;
+
+}
+.two-container2{
+    width: 50%;
+    height: 700px;
+    background: url("https://storage-asset.msi.com/global/picture/banner/banner_1664153511bd83840a086cc05b077cadaf241a74e9.jpeg") no-repeat;
+    margin-left: 5px;
+    margin-top: 5px;
+    margin-right: 5px;
+}.two-container{
+    display: flex;
+}
+.container2{
+    margin-top: 5px;
+    width: 100%;
+    height: 760px;
+    background: url("https://storage-asset.msi.com/global/picture/banner/banner_16636592049f00612e2bb531f31bab893b795170f2.jpeg") no-repeat center/cover;
+    background-origin: padding-box;
+}
+.container3{
+    width: 100%;
+    height: 760px;
+    background: url("https://storage-asset.msi.com/global/picture/banner/banner_16642505374c858634fe65a6e028f34bd13bf61329.jpeg") no-repeat center/cover;
+    background-origin: padding-box;
+    
+}
+.two-container2 p{
+    color: #fff;
+    width: 600px;
+    text-align: center;
+    padding-left: 200px;
+}
+#large-title1{
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 40px;
+    letter-spacing: 1.5px;
+   
+}
+#title1{
+    font-size:20px;
+    color: #f2f2f2;
+    opacity: 0.8;
+    padding-top: 10px;
+    letter-spacing: 1.5px;
+
+}
+.container4{
+    width: 100%;
+    height: 700px;
+    background: url("https://storage-asset.msi.com/global/picture/banner/banner_165362242259e0a3f7f24ec103495415403dcbcbaf.jpeg") no-repeat center/cover;
+    background-origin: padding-box;
+    
+}
+.five-container{
+    margin-top: 7px;
+    display: flex;
+    background: white;
+}
+.five-container1{
+    width: 50%;
+    margin-left: 7px;
+    height: 500px;
+    opacity: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: url("https://storage-asset.msi.com/frontend/imgs/product_registration.jpg") no-repeat center/cover;
+}
+
+
+
+.five-container2{
+    width: 50%;
+    margin-left: 7px;
+    height: 500px;
+    display: flex;
+    opacity: 50%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: url("https://storage-asset.msi.com/frontend/imgs/support_service_location.jpg") no-repeat center/cover;
+}
+.first-part{
+    background: #353433;
+}
+.six-container{
+    width: 50%;
+    margin-top: 7px;
+    display: flex;
+    background: rgb(255, 255, 255);
+    justify-content: space-between;
+    
+}
+.six-container11{
+    width: 50%;
+    margin-left: 10px;
+    height: 300px;
+    opacity: 50%;
+    background: url("https://storage-asset.msi.com/frontend/imgs/forum.jpg") no-repeat center/cover;
+}
+.six-container12{
+    width: 50%;
+    margin-left: 7px;
+    margin-right: 2px;
+    height: 300px;
+    opacity: 50%;
+    background: url("https://storage-asset.msi.com/frontend/imgs/reward.jpg") no-repeat center/cover;
+}
+.six-container1{
+    width: 50%;
+    margin-top: 7px;
+    display: flex;
+    background: rgb(255, 255, 255);    
+    
+}
+.six-container21{
+    width: 50%;
+    margin-left: 7px;
+    height: 300px;
+    opacity: 50%;
+    background: url("https://storage-asset.msi.com/frontend/imgs/video.jpg") no-repeat center/cover;
+}
+.six-container22{
+    width: 50%;
+    margin-left: 7px;
+    margin-right: 7px;
+    height: 300px;
+    opacity: 50%;
+    background: url("https://storage-asset.msi.com/frontend/imgs/insider.jpg") no-repeat center/cover;
+}
+.six-container-full{
+    display: flex;
+}
+.product-reg{
+    color: black;
+    font-size: 27px;
+    font-weight: bold;
+    text-align: center;
+}
+.product-def{
+    font-size:20px;
+    color: #626262;
+    padding-top: 10px;
+    text-align: center;
+    z-index: 1;
+
+}
+.focus-img{
+    width: 10%;
+    height: auto;
+    align-items: center;
+
+}
+.services{
+    color: black;
+    font-size: 27px;
+    font-weight: bold;
+    text-align: center;
+}
+.services-def{
+    font-size:20px;
+    color: #626262;
+    padding-top: 10px;
+    text-align: center;
+    z-index: 1;
+}
+.services-img{
+    width: 10%;
+    height: auto;
+    align-items: center;
+}
+.forum{
+    color: black;
+    font-size: 27px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 150px;
+}
+.reward{
+    color: black;
+    font-size: 27px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 150px;
+}
+.videos{
+    color: black;
+    font-size: 27px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 150px;
+}
+.insider{
+    color: black;
+    font-size: 27px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 150px;
+    
+}
+.product-img{
+    position: fixed;
+}
+.footer{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    background: #efefef;
+    margin-top: 7px;
+    justify-content: space-around;
+    
+}
+.header p{
+    margin-top: 40px;
+    color:#626262;
+    font-size: 23px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.header a{
+    text-decoration: none;
+    color: #626262;
+    font-size: 20px;
+    margin-bottom: 10px;
+    
+}
+.border-bottom{
+    display: flex;
+    width: 100%;
+    height: 100px;
+    background: #efefef;
+    align-items: center;
+}
+.border-line{
+    border-bottom: 1px solid #626262;
+    width: 80%;
+    margin-left: 10%;
+}
+.copyright__logo{
+    width: 70px;
+    height: 25px;
+    margin-left: 160px;
+}
+.copyright__legal{
+    margin-left: 35px;
+}
+.service-pack{
+    padding-left: 480px;
+}
+.service__link{
+    margin-left: 15px;
+    text-decoration: none;
+    color: #626262;
+}
